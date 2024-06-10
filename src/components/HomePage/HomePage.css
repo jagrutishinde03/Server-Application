@@ -1,0 +1,28 @@
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.content-container {
+    width: 95%; /* 70% of the viewport width */
+    height: 95%; /* 70% of the viewport height */
+    background-color: white; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    padding: 0; /* Remove padding to ensure NavBar is at the top */
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding inside the container */
+}
