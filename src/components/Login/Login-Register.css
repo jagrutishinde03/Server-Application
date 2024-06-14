@@ -1,0 +1,115 @@
+/* Login-register.css */
+
+body, html {
+    height: 100%; /* Ensure the body and html take full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .login-container, .register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title, .register-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #680870;
+  }
+  
+  .login-form, .register-form {
+    width: 100%;
+  }
+  
+  .login-form div, .register-form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label, .register-form label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #680870;
+  }
+  
+  .login-form input,
+  .login-form select,
+  .register-form input,
+  .register-form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .login-form button, .register-form button {
+    background-color: #680870;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover, .register-form button:hover {
+    background-color: #54065c;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .register-link {
+    color: #680870;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: underline;
+  }
+  
+  .register-link:hover {
+    color: #54065c;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container, .register-container {
+      padding: 10px;
+    }
+  
+    .login-form input,
+    .login-form select,
+    .register-form input,
+    .register-form select {
+      width: calc(100% - 10px);
+    }
+  }
+  

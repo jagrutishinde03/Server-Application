@@ -11,6 +11,7 @@ const NavBar = () => {
                 <li className="navbar-item"><Link to="/about">About</Link></li>
                 <li className="navbar-item"><Link to="/services">Services</Link></li>
                 <li className="navbar-item"><Link to="/contact">Contact</Link></li>
+                <li className="navbar-item"><Link to="/login">Login/Register</Link></li>
             </ul>
             <div className="navbar-toggle">
                 <span className="bar"></span>
